@@ -23,6 +23,7 @@
     font-weight:bolder;
 }
 .container {
+  border-radius: 8px;
   position: relative;
   width: 1320px;          /* fixed width */
   height: 600px;          /* fixed height */
@@ -32,6 +33,7 @@
   font-family: "Merriweather", serif;
 
   background-image: url('Banner\ Image.png'); /* 🔹 replace with your image path */
+  border-radius: 8px;
   background-size: cover;      /* make image cover the whole box */
   background-position: center; /* keep image centered */
   background-repeat: no-repeat;
@@ -163,6 +165,7 @@ span{
 }
 .fifty{
   margin-top: 120px;
+  
   width: 1320px;
   height: 980px;
   margin: 120px auto;
@@ -182,4 +185,31 @@ span{
 .cen{
   text-align: center;
   margin: 0px auto;
+}
+.best{
+  font-size: 24px;
+  font-weight: 500;
+
+}
+.awesome{
+  font-size: 48px;
+  font-weight: bolder;
+}
+.gifts{
+  width: 1320px;
+  height: 1163px;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+}
+.FirstTHree{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  
+}
+.bawe{
+  margin-top: 120px;
 }
