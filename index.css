@@ -161,3 +161,25 @@ span{
   font-size: 48px;
   font-weight:bolder;
 }
+.fifty{
+  margin-top: 120px;
+  width: 1320px;
+  height: 980px;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertical center */
+  align-items: center;      /* horizontal center */
+}
+
+.text {
+  position: relative;
+  z-index: 1;
+}
+.holi{
+  font-size: 72px;
+}
+.cen{
+  text-align: center;
+  margin: 0px auto;
+}
